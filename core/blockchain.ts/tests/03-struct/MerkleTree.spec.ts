@@ -127,9 +127,9 @@ describe("MerkleTree", () => {
   });
 
   describe("getRoot()", () => {
-    let tree: MerkleTree,
-      hash =
-        "000102030405060708090A0B0C0D0E0F" + "000102030405060708090A0B0C0D0E0F"; // 32 bytes
+    let tree: MerkleTree;
+    const hash =
+      "000102030405060708090A0B0C0D0E0F" + "000102030405060708090A0B0C0D0E0F"; // 32 bytes
     beforeEach(() => {
       tree = new MerkleTree(
         [

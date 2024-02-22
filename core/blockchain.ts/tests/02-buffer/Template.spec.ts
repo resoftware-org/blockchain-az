@@ -136,7 +136,7 @@ describe("Template", () => {
 
       // act
       const buffer: Uint8Array = tpl_2.toBuffer();
-      const asBigInt: BigInt = buffer.reduce(
+      const asBigInt: bigint = buffer.reduce(
         (p, c) => BigInt(p) * 256n + BigInt(c),
         0n,
       );

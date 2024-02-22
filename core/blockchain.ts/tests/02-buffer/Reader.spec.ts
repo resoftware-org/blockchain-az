@@ -23,7 +23,7 @@ describe("Reader", () => {
 
     it("should accept optional offset input", () => {
       const reader_0 = new Reader(Buffer.from("00", "hex")),
-        reader_1 = new Reader(Buffer.from("00", "hex"), 1);
+        reader_1 = new Reader(Buffer.from("0001", "hex"), 1);
 
       expect(reader_0.offset).to.not.be.undefined;
       expect(reader_1.offset).to.not.be.undefined;
