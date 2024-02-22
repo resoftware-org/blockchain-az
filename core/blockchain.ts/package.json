@@ -1,6 +1,6 @@
 {
   "name": "blockchain.ts",
-  "version": "0.0.0",
+  "version": "0.1.0-alpha.0",
   "homepage": "https://github.com/resoftware-org/blockchain-az/tree/main/core/blockchain.ts#readme",
   "description": "Blockchain.ts is a TypeScript wrapper for Web3 operations",
   "author": "re:Software S.L <devs@resoftware.es>",
