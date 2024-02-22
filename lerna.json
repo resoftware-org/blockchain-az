@@ -10,5 +10,5 @@
       "conventionalCommits": false 
     }
   },
-  "packages": ["core/*"]
+  "packages": ["core/*", "use-cases/*"]
 }

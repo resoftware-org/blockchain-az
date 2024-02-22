@@ -1,6 +1,10 @@
 {
   "name": "@blockchain-az/monorepo",
   "version": "0.0.0",
+  "workspaces": [
+    "core/blockchain.ts",
+    "use-cases/bitcoin-block"
+  ],
   "homepage": "https://github.com/resoftware-org/blockchain-az#readme",
   "description": "Blockchain A-Z: The all-in-one Web3 library for TypeScript",
   "author": "re:Software S.L <devs@resoftware.es>",
@@ -14,12 +18,14 @@
     "url": "https://github.com/resoftware-org/blockchain-az/issues"
   },
   "scripts": {
-    "build": "lerna run build --stream",
-    "test": "lerna run test --stream",
-    "serve": "lerna run serve --stream"
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "docs": "npm run docs --workspaces"
   },
   "devDependencies": {
-    "lerna": "^7.1.5"
+    "lerna": "^7.1.5",
+    "blockchain.ts": "file:core/blockchain.ts",
+    "@blockchain-az/bitcoin-block": "file:use-cases/bitcoin-block"
   },
   "engines": {
     "node": ">=18"

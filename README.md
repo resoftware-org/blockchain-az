@@ -25,10 +25,10 @@ This project is maintained with [**lerna**](https://lerna.js.org/) to permit joi
 
 You can install lerna globally using `npm install -g lerna@4.0.0`.
 
-Following command installs the **dapp-framework** dependencies:
+Following command installs the **Blockchain A-Z** dependencies:
 
 ```bash
-lerna bootstrap
+npm install --workspaces
 ```
 
 ### Building packages
