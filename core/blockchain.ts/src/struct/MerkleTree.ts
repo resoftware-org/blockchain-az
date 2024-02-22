@@ -90,6 +90,9 @@ export class MerkleTree {
 
     /**
      * A hash function implementation, e.g. sha3_256.
+     * <br /><br />
+     * Using Bitcoin as an example, the merkle root hash is computed
+     * using a **double SHA-256** hashing algorithm.
      *
      * @access public
      * @example `(h: Uint8Array) => myCoolHashFunction(h)`
