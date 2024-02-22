@@ -6,6 +6,12 @@
     "bootstrap": {
       "npmClientArgs": ["--no-package-lock"]
     },
+    "install": {
+      "npmClientArgs": ["--no-package-lock"]
+    },
+    "version": {
+      "npmClientArgs": ["--no-package-lock"]
+    },
     "publish": {
       "conventionalCommits": false 
     }
